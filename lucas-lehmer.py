@@ -20,6 +20,7 @@ def fermat(p):
 		return True
 	else:
 		return False
+
 # gets time elapsed since last prime was found
 def getTime(start):
 	total = time() - start
